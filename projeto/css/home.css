@@ -1,0 +1,129 @@
+﻿
+
+#apresentacao_container{position:relative;margin-top:0;background:url('/imgs/slide_1.jpg') center center;background-repeat:no-repeat}
+
+#apresentacao_frases{position:absolute;left:0;top:180px;width:100%}
+
+.frases{color:#FFF;font-size:40px;height:50px;display:none}
+
+#apresentacao_opcoes{display:none;position:absolute;left:0;width:100%;bottom:84px;height:60px}
+
+.icon_apresentacao_opcoes{width:50px;margin:10px}
+
+.icon_apresentacao_opcoes:hover{width:54px;margin:8px;}
+
+.img_chamadas:hover{filter:alpha(opacity=60);-moz-opacity: 0.6;opacity: 0.6}
+
+
+
+#div_servicos{margin:0;/*background-image:url('../imgs/textura_de_fundo.jpg')*/background:#F9F9F9}
+
+.item_servico{float:left;height:300px;font-size:18px}
+
+.item_servico .servicos_titulo{font-size:24px}
+
+.item_servico a{color:#58A3E8;font-weight:bold}
+
+
+
+#div_portfolio{background:url('../imgs/bgt3.png');min-height:100px;padding: 30px 0px 0px 0px}
+
+#portifolio_titulo{color:#FFF;font-size:22px;margin: 15px 0px 25px 0px}
+
+#portifolio_subtitulo{color:#FFF;font-size:18px;margin: 15px 0px 25px 0px}
+
+.item_portfolio{float:left;padding:10px 0px 10px 0px;font-size:18px}
+
+.tablefrase{width:98%;background:#222;color:#FFF;padding:10px 0px 10px 0px;margin-top:2px}
+
+.tablefrase td{padding-bottom:10px}
+
+.avatar{height:40px}
+
+
+#div_clientes{background:#FFF;min-height:100px;padding: 30px 0px 0px 0px}
+
+#clientes_titulo{color:#000;font-size:22px;margin: 40px 0px 25px 0px}
+
+#clientes_subtitulo{color:#000;font-size:18px;margin: 20px 0px 100px 0px}
+
+#container_itens_clientes{width:100%;margin:0px 1% 50px 1%}
+
+.item_clientes{float:left;width:14%;height:110px;margin:0px 0px 30px 0px}
+
+
+#div_tecnologias{padding: 25px 0px 40px 0px;background:#676767;}
+
+.logo_tech{width:70%;margin: 25px 10px 5px 10px}
+
+#tech_titulo{color:#EEE;font-size:22px;margin: 40px 0px 25px 0px}
+
+#sub_titulo{color:#EEE;font-size:18px;margin: 20px 0px 30px 0px}
+
+
+
+#div_parceiros{background:#10537B;min-height:100px;padding: 30px 0px 80px 0px}
+
+
+
+
+
+
+@media (max-width: 930px){
+	
+	.item_servico{padding:10px 0px 0px 0px}
+	
+	.item_servico, .item_portfolio{width:98%;margin:0px 1% 0px 1%}
+	
+	.frases{font-size:28px}
+	
+	#apresentacao_frases{top:160px}
+	
+	.tablefrase{height:120px}
+	
+	.item_clientes{float:left;width:20%;}
+	
+	.img_chamadas_apresentacao{width:100%}
+	
+	#apresentacao_opcoes{bottom:60px}
+
+}
+
+
+
+
+@media (min-width: 931px) and (max-width: 1250px){
+
+	.item_servico{padding:30px 0px 0px 0px}
+	
+	.frases{font-size:32px}
+	
+	#apresentacao_frases{top:160px}
+
+	.tablefrase{height:140px}
+	
+	.img_chamadas_apresentacao{width:96%}
+	
+	#apresentacao_opcoes{bottom:68px}
+}
+
+
+
+
+@media (min-width: 931px){
+
+	.item_servico{padding:30px 0px 0px 0px}
+
+	.item_servico, .item_portfolio{width:50%;margin:0}
+	
+	.tablefrase{height:150px}
+	
+	.img_chamadas_apresentacao{width:90%} 
+}
+
+
+
+
+
+
+

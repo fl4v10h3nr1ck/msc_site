@@ -1,0 +1,36 @@
+
+body{background:url('../imgs/bg-body.png')}
+
+#div_solicitacao{color:#333;margin:70px 0px 20px 0px;background:url('../imgs/textura_de_fundo.jpg');-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;font-size:16px}
+
+.div_area{width:80%;line-height:30px;margin-top:10px}
+
+.titulo_area{font-size:16px;font-weight:bold;padding:5px}
+
+.requerido{color:red}
+
+input[type="text"]{height:25px}
+
+.mark{height: 22px;margin-right:10px}
+
+
+@media (max-width: 930px){
+	
+	#div_solicitacao{width:96%; padding:0px 1% 20px 1%}
+
+}
+
+
+@media (min-width: 931px) and (max-width: 1250px){
+
+	#div_solicitacao{width:840px; padding:0px 10px 20px 10px}
+
+}
+
+
+
+@media (min-width: 1250px){
+
+	#div_solicitacao{width:1100px; padding:0px 10px 20px 10px}
+	
+}

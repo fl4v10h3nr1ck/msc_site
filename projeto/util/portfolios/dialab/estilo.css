@@ -1,0 +1,34 @@
+
+ 
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {/*font-family: 'Elsie', cursive;*/color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;text-shadow:0 0 10px rgba(0,0,0,0.7);background-position: 50% 0;background-repeat: no-repeat;background-attachment: fixed;
+}
+ 
+/* Define backgrounds dos divs */
+#titulo {background-image: url(imgs/fundo_titulo.jpg);padding:22% 0 15% 0;color:#000;font-size:24px}
+#introducao {background-color: #2C374F;padding:15% 0 8% 0;font-size:20px}
+#movimentos {background-color:#30323F;padding:4% 0 4% 0;font-size:16px}
+#clientes{background-color:#FFF;padding:6% 0 6% 0;font-size:16px;color:#444}
+#cadastros{background-color:#66270D;padding:4% 0 4% 0;font-size:16px;} 
+#resultados{background-color:white;padding:6% 0 6% 0;font-size:16px;color:#444} 
+#lancamentos{background-color:#646464;padding:4% 0 4% 0;font-size:16px;} 
+#imprissao_resultado{background-color:white;padding:2% 0 2% 0;font-size:16px;color:#444}
+#historico{background-color:#262E39;padding:6% 0 6% 0;font-size:16px;}
+#rel_financeiro{background-color:white;padding:4% 0 4% 0;font-size:16px;color:#444} 
+#licenciamento{background-color:#27889E;padding:4% 0 4% 0;font-size:16px;} 
+#outros{background-color:white;padding:4% 0 4% 0;font-size:16px;color:#444} 
+
+
+
+.titulo{font-size:24px;font-weight:bold}
+ 
+ 
+.marcador{height:20px;margin-right:10px}
+ 
+ 
+/** Formata o article que vai o texto **/
+.bgParallax article {width: 74%;text-align: center;margin:0 auto;}
+ 
+
+article p {line-height: 30px;}
+article p a {color:#FFF; text-decoration:none; font-size:30px;}

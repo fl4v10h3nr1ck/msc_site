@@ -1,0 +1,40 @@
+
+body{background:url('../imgs/bg-body.png')}
+
+#div_contato{color:#333;margin:70px 0px 20px 0px;background:url('../imgs/textura_de_fundo.jpg');-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;font-size:16px}
+
+#div_contato p{margin:10px 0px 10px 0px;line-height:22px}
+
+#tb_contato{width:98%;}
+
+#tb_contato td{padding: 10px 0px 5px 0px;line-height:25px}
+
+.requerido{color:red}
+
+input[type="text"]{height:25px}
+
+.icon_mark{height:25px;margin-right:10px}
+
+
+
+
+@media (max-width: 930px){
+	
+	#div_contato{width:96%; padding:0px 1% 20px 1%}
+
+}
+
+
+@media (min-width: 931px) and (max-width: 1250px){
+
+	#div_contato{width:900px; padding:0px 10px 20px 10px}
+
+}
+
+
+
+@media (min-width: 1250px){
+
+	#div_contato{width:1100px; padding:0px 10px 20px 10px}
+	
+}

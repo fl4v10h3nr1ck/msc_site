@@ -1,0 +1,144 @@
+/******************** geral *****************************/
+/*
+
+
+@font-face {
+
+font-family: 'New Cicle';
+src: url('/webfontkit/New_Cicle_Fina.eot');
+src: url('/webfontkit/New_Cicle_Fina.eot?#iefix') format('embedded-opentype');
+src: url('/webfontkit/New_Cicle_Fina.otf');
+src: url('/webfontkit/New_Cicle_Fina.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+@font-face {
+
+font-family: 'New Cicle';
+src: url(/webfontkit/New_Cicle_Fina.eot);
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+@font-face {
+
+font-family: 'New Cicle';
+src: url('/webfontkit/New_Cicle_Fina.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+*/
+
+
+*{padding:0;margin:0}
+
+//body,html{position:relative;width:100%;font-family: 'New Cicle', 'Helvetica', 'Arial', sans-serif;font-size:12px;color:#333}
+
+body,html{position:relative;width:100%;font-family: 'Helvetica', 'Arial', sans-serif;font-size:10px;color:#333}
+
+
+.area_total{position:relative;width:100%}
+
+.container{margin:0;padding:0}
+
+a img {border: none}	
+
+a{text-decoration:none}
+
+
+
+/******************** topo e menu *****************************/
+
+#topo{position:fixed;left:0;top:0;z-index:999}
+
+#superior{width:96%;padding: 0px 2% 0px 2%;background:url('../imgs/textura_de_fundo.jpg')}
+
+.icon_topo_direito{height:30px; margin:5px 10px 0px 0px}
+
+#img_logo{height:50px;margin-top:1px}
+
+
+#menu_horizontal_topo{background:url('../imgs/fundo_menu_horizontal_topo.png') repeat;width:100%;padding:0;margin:0;border-bottom:solid #000 4px;color:#EEE;min-height:30px;font-size:16px}
+
+.item_menu_horizontal_topo{padding: 0px 20px 0px 20px;height:32px}
+
+#menu_horizontal_topo a{color:#EEE;text-decoration:none}
+
+#menu_horizontal_topo a:hover{color:#F9FCC4;text-decoration:none}
+
+
+
+/******************** rodape *****************************/
+
+
+#rodape{background:#222933;min-height:300px;color:#EEE;padding-top:10px;font-size:14px}
+
+#rodape a{color:#EEE}
+
+#rodape a:hover{color:#F9FCC4}
+
+.div_rodape{background:#262E39;float:left;padding:0.1%;height:300px}
+
+.div_rodape ul{margin:10px 0px 0px 25px}
+
+.div_rodape li{margin:5px}
+
+#rodape_form_contato{margin:10px 0px 0px 5px}
+
+#rodape_form_contato input, button{height:20px;color:#777}
+
+
+#copyright{width:100%;height:30px;line-height:30px;background:url('../imgs/fundo_menu_horizontal_topo.png') repeat-x;}
+
+
+
+
+
+
+
+
+@media (max-width: 930px){
+	
+	.container{width:98%}
+	
+	#lista_de_menu{font-size:14px}
+	
+	#div_rodape_links{width:49.5%;margin:5px 0px 5px 0.25%}
+	
+	#div_rodape_form{width:49.5%;margin:5px 0px 5px 0.25%}
+	
+	#div_rodape_contatos{display:none}
+	
+	#item_menu_horizontal_topo_area_cliente, #item_menu_horizontal_topo_contato, #item_menu_horizontal_topo_dialab{display:none}
+}
+
+
+@media (min-width: 931px) and (max-width: 1250px){
+
+	.container{width:800px}
+	
+	#lista_de_menu{font-size:14px}
+	
+	#div_rodape_links{width:49.5%;margin:5px 0px 5px 0.25%}
+	
+	#div_rodape_form{width:49.5%;margin:5px 0px 5px 0.25%}
+	
+	#div_rodape_contatos{display:none}
+	
+	#item_menu_horizontal_topo_area_cliente{display:none}
+
+}
+
+
+
+@media (min-width: 1250px){
+
+	.container{width:960px}
+	
+	.div_rodape{width:32.8%;margin:5px 0px 5px 0.25%}
+}
+

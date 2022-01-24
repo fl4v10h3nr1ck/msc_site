@@ -1,0 +1,50 @@
+
+*{padding:0;margin:0}
+
+body,html{position:relative;width:100%;font-family: 'Arial', sans-serif;font-size:14px;color:#333;background:#262E39}
+
+#base_topo_geral{width:100%;background:#000;border:solid yellow;border-top-width: 0;border-bottom-width: 2px;border-right-width: 0;border-left-width: 0;}
+
+#img_logo{height:50px;margin:5px 5px 5px 0px}
+
+#cliente_atual{width:99%;background:#FFF;margin:5px 0.5% 0px 0.5%;}
+
+#rodape{width:100%;background:#000;margin:5px 0px 0px 0px;color:#F3FF77;height:27px;padding-top:7px}
+
+#sem_cliente_selecionado{width:99%;background:#FFF;margin:5px 0.5% 0px 0.5%;color:#000;min-height:350px;padding-top:100px}
+
+
+.botao_selecao{background-image:url("imgs/selecao.png");background-repeat: no-repeat; background-position: left center; width:22px;height:22px}
+
+.botao_atualizar{background-image:url("imgs/atualizar.png");background-repeat: no-repeat; background-position: left center; width:22px;height:22px}
+
+.botao_excluir{background-image:url("imgs/excluir.png");background-repeat: no-repeat; background-position: left center; width:22px;height:22px}
+
+.botao_novo{background-image:url("imgs/novo.png");background-repeat: no-repeat; background-position: left center; width:22px;height:22px}
+
+.botao_home{background-image:url("imgs/home.png");background-repeat: no-repeat; background-position: left center; width:29px;height:29px}
+
+.botao_sair{background-image:url("imgs/sair.png");background-repeat: no-repeat; background-position: left center; width:29px;height:29px}
+
+.botao_voltar{background-image:url("imgs/voltar.png");background-repeat: no-repeat; background-position: left center; width:29px;height:29px}
+
+.botao_desativar{background-image:url("imgs/desativar.png");background-repeat: no-repeat; background-position: left center; width:22px;height:22px}
+
+
+input[type='text']{background-color:#EEE;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;height:20px;color:#003AF9}
+
+select{height:23px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;background-color:#EEE;color:#003AF9}
+
+textarea{background-color:#EEE;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;color:#003AF9}
+
+input[type='password']{background-color:#EEE;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;height:20px}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+How to use
+
+Download jQuery, Coin Slider javascript file and CSS file and include them on your page:
+
+	
+<script type="text/javascript" src="jquery-1.4.2.js"></script>
+<script type="text/javascript" src="coin-slider.min.js"></script>
+<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+
+Add slider content and create one div with an id and put images and image descriptions, similar to:
+
+	
+<div id='coin-slider'>
+    <a href="img01_url" target="_blank">
+        <img src='img01.jpg' >
+        <span>
+            Description for img01
+        </span>
+    </a>
+    ......
+    ......
+    <a href="imgN_url">
+        <img src='imgN.jpg' >
+        <span>
+            Description for imgN
+        </span>
+    </a>
+</div>
+
+At the end all you have to do is to call Coin Slider:
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#coin-slider').coinslider();
+    });
+</script>
+Example
+
+Coin Slider have a lot of options for helping you set slider as you want. If you want to have 900px wide slider, without navigation and with 5sec delay between images you’ll do this:
+
+	
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#coin-slider').coinslider({ width: 900, navigation: false, delay: 5000 });
+    });
+</script>
+List of all options
+
+	
+width: 565, // width of slider panel
+height: 290, // height of slider panel
+spw: 7, // squares per width
+sph: 5, // squares per height
+delay: 3000, // delay between images in ms
+sDelay: 30, // delay beetwen squares in ms
+opacity: 0.7, // opacity of title and navigation
+titleSpeed: 500, // speed of title appereance in ms
+effect: '', // random, swirl, rain, straight
+navigation: true, // prev next and buttons
+links : true, // show images as links
+hoverPause: true // pause on hover
+Notes
+
+Be careuful with spw and sph because large numbers can cause transitions problems.
+If you don’t set effect all effects will be implemented by random.
